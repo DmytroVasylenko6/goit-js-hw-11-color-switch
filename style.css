@@ -1,0 +1,36 @@
+.button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.button {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 34px;
+  padding: 50px 100px;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #fdbe33 #000 #d77206;
+  border-radius: 6px;
+  background: linear-gradient(#f30f0f, #e37916) #0c0b09;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.button.hover:hover {
+  background: linear-gradient(#f5ae00, #f59500) #f5ae00;
+}
+
+.notactive {
+  background: cornsilk;
+  color: darkgray;
+  border-color: darkgray;
+}
